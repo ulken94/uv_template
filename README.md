@@ -25,6 +25,9 @@ make lint
 
 # Format code
 make format
+
+# Generate documentation
+make gdoc
 ```
 
 # Project Structure
