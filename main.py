@@ -1,6 +1,6 @@
-import numpy as np
-
+"""Main module for uv-template."""
 # main.py 예시
+
 
 def calculate_area(width: float, height: float) -> float:
     """사각형의 넓이를 계산합니다.
@@ -23,11 +23,22 @@ def calculate_area(width: float, height: float) -> float:
         raise ValueError("Dimensions must be positive")
     return width * height
 
-def add(a, b):
+
+def add(a: int, b: int) -> int:
+    """두 정수를 더합니다.
+
+    Args:
+        a (int): 첫 번째 정수.
+        b (int): 두 번째 정수.
+
+    Returns:
+        int: 두 정수의 합.
+    """
     return a + b
 
 
-def main():
+def main() -> None:
+    """메인 함수입니다."""
     print("Hello from uv-template!")
 
 
