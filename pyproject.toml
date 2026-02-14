@@ -17,6 +17,7 @@ dev = [
     "mkdocstrings[python]>=1.0.3",
     "mypy>=1.19.1",
     "pytest>=8.4.2",
+    "pytest-cov>=7.0.0",
     "ruff>=0.15.0",
 ]
 
@@ -62,5 +63,5 @@ warn_return_any = false
 
 [tool.pytest.ini_options]
 minversion = "7.0"
-addopts = "-ra -q"
+addopts = "-ra -q --cov"
 testpaths = ["tests"]
