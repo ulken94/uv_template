@@ -1,10 +1,10 @@
-from utils.default_utils import greet
+from src.modules.first_module import print_hello
 
 
 # 2. Pytest 코드
 def test_greet(capsys):
     # 함수 실행
-    greet("World")
+    print_hello("World")
 
     # capsys가 현재까지 콘솔에 출력된 내용을 읽어옵니다.
     captured = capsys.readouterr()

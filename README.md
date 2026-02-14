@@ -28,6 +28,9 @@ make format
 
 # Generate documentation
 make gdoc
+
+# Sub entry point for development (tools)
+uv run python -m tools.some_tool
 ```
 
 # Project Structure

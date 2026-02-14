@@ -1,5 +1,6 @@
 """Main module for uv-template."""
-# main.py 예시
+
+from src.modules.first_module import print_hello
 
 
 def calculate_area(width: float, height: float) -> float:
@@ -40,6 +41,7 @@ def add(a: int, b: int) -> int:
 def main() -> None:
     """메인 함수입니다."""
     print("Hello from uv-template!")
+    print_hello("uv-template")
 
 
 if __name__ == "__main__":
