@@ -26,8 +26,11 @@ make lint
 # Format code
 make format
 
-# Generate documentation
+# Serve documentation locally
 make gdoc
+
+# Build documentation to static files
+make gdoc-build
 
 # Sub entry point for development (tools)
 uv run python -m tools.some_tool
