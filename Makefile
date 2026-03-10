@@ -16,5 +16,8 @@ run:
 	uv run python -m src.main
 
 gdoc:
-	uv run mkdocs serve
+	uv run mkdocs serve $(ARGS)
+
+gdoc-build:
+	uv run mkdocs build $(ARGS)
 
